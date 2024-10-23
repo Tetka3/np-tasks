@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(24, 21, 21);
+    color: white;
+    height: 50px;
+    width: 80%;
+}
+.navbar ul{
+    list-style: none;    
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+}
+.formData{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    background-color: rgb(193, 228, 216);
+}
+.title, .postBody{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.title label, .postBody label{
+    text-align: center;    
+}
+.formData button{
+    padding: 5px;
+    color: white;
+    background-color: rgb(169, 169, 209);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tasks{
+    background-color: beige;
+    width: 50%;
+    margin-top: 10px;
+}
+.task{
+    background-color: rgb(179, 221, 179);
+    margin-bottom: 10px;
+    width: 100%;
+}
